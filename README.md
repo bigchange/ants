@@ -4,12 +4,12 @@
 <br/><br/>
 <a title="Build Status" target="_blank" href="https://travis-ci.com/panjf2000/ants"><img src="https://img.shields.io/travis/com/panjf2000/ants?style=flat-square&logo=travis-ci&logoColor=white"></a>
 <a title="Codecov" target="_blank" href="https://codecov.io/gh/panjf2000/ants"><img src="https://img.shields.io/codecov/c/github/panjf2000/ants?style=flat-square&logo=codecov"></a>
-<a title="Stars" target="_blank" href="https://github.com/panjf2000/ants/stargazers"><img src="https://img.shields.io/github/stars/panjf2000/ants?color=eacd76&style=flat-square&logo=github"></a>
-<a title="Release" target="_blank" href="https://github.com/panjf2000/ants/releases"><img src="https://img.shields.io/github/v/release/panjf2000/ants.svg?color=161823&style=flat-square&logo=smartthings"></a>
+<a title="Stars" target="_blank" href="https://github.com/bigchange/ants/stargazers"><img src="https://img.shields.io/github/stars/panjf2000/ants?color=eacd76&style=flat-square&logo=github"></a>
+<a title="Release" target="_blank" href="https://github.com/bigchange/ants/releases"><img src="https://img.shields.io/github/v/release/panjf2000/ants.svg?color=161823&style=flat-square&logo=smartthings"></a>
 <br/>
-<a title="Go Report Card" target="_blank" href="https://goreportcard.com/report/github.com/panjf2000/ants"><img src="https://goreportcard.com/badge/github.com/panjf2000/ants?style=flat-square"></a>
-<a title="Doc for ants" target="_blank" href="https://pkg.go.dev/github.com/panjf2000/ants/v2?tab=doc"><img src="https://img.shields.io/badge/go.dev-doc-007d9c?style=flat-square&logo=read-the-docs"></a>
-<a title="Ants on Sourcegraph" target="_blank" href="https://sourcegraph.com/github.com/panjf2000/ants?badge"><img src="https://sourcegraph.com/github.com/panjf2000/ants/-/badge.svg?style=flat-square"></a>
+<a title="Go Report Card" target="_blank" href="https://goreportcard.com/report/github.com/bigchange/ants"><img src="https://goreportcard.com/badge/github.com/bigchange/ants?style=flat-square"></a>
+<a title="Doc for ants" target="_blank" href="https://pkg.go.dev/github.com/bigchange/ants/v2?tab=doc"><img src="https://img.shields.io/badge/go.dev-doc-007d9c?style=flat-square&logo=read-the-docs"></a>
+<a title="Ants on Sourcegraph" target="_blank" href="https://sourcegraph.com/github.com/bigchange/ants?badge"><img src="https://sourcegraph.com/github.com/bigchange/ants/-/badge.svg?style=flat-square"></a>
 <a title="Mentioned in Awesome Go" target="_blank" href="https://github.com/avelino/awesome-go#goroutines"><img src="https://awesome.re/mentioned-badge-flat.svg"></a>
 </p>
 
@@ -48,13 +48,13 @@ Library `ants` implements a goroutine pool with fixed capacity, managing and rec
 ### For `ants` v1
 
 ``` powershell
-go get -u github.com/panjf2000/ants
+go get -u github.com/bigchange/ants
 ```
 
 ### For `ants` v2 (with GO111MODULE=on)
 
 ```powershell
-go get -u github.com/panjf2000/ants/v2
+go get -u github.com/bigchange/ants/v2
 ```
 
 ## 🛠 How to use
@@ -69,7 +69,7 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/panjf2000/ants/v2"
+	"github.com/bigchange/ants/v2"
 )
 
 var sum int32
@@ -130,7 +130,7 @@ import (
 	"io/ioutil"
 	"net/http"
 
-	"github.com/panjf2000/ants/v2"
+	"github.com/bigchange/ants/v2"
 )
 
 type Request struct {
@@ -346,7 +346,7 @@ In above benchmark result, the first and second benchmarks performed test cases 
 
 Please read our [Contributing Guidelines](CONTRIBUTING.md) before opening a PR and thank you to all the developers who already made contributions to `ants`!
 
-[![](https://opencollective.com/ants/contributors.svg?width=890&button=false)](https://github.com/panjf2000/ants/graphs/contributors)
+[![](https://opencollective.com/ants/contributors.svg?width=890&button=false)](https://github.com/bigchange/ants/graphs/contributors)
 
 ## 📄 License
 
@@ -358,7 +358,7 @@ Source code in `ants` is available under the MIT [License](/LICENSE).
 
 ## 👨‍👨‍👧‍👦 Users of ants (please feel free to add your projects here ~~)
 
-<a href="https://github.com/panjf2000/gnet" target="_blank"><img src="https://raw.githubusercontent.com/panjf2000/logos/master/gnet/logo.png" width="150" align="middle"/></a>&nbsp;&nbsp;
+<a href="https://github.com/bigchange/gnet" target="_blank"><img src="https://raw.githubusercontent.com/panjf2000/logos/master/gnet/logo.png" width="150" align="middle"/></a>&nbsp;&nbsp;
 <a href="https://www.tencent.com"><img src="https://www.tencent.com/img/index/tencent_logo.png" width="250" align="middle"/></a>&nbsp;&nbsp;
 
 ## JetBrains OS licenses
